@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            davisononline
+tagline:          'Random stuf that had no better home to go to'
+description:      'Made by <a href="https://linkedin.com/in/davisononline" target="_blank">me</a>.'
+url:              https://davison.github.io
+baseurl:          /
+
+author:
+  name:           'Darren Davison'
+  url:            https://davison.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+account:          https://github.com/davison
