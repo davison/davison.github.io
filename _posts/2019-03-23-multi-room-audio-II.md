@@ -4,7 +4,7 @@ title: Multi Room Audio - part II
 abstract: In part I, I covered the planning (cough..) and design goals for my multi-room audio system. Part II goes into most of the detail of how I ended up building it.
 ---
 
-In [part I](/2019/03/16/multi-room-audio-II.html), I covered the planning (cough..) and design goals for my multi-room audio system. Part II goes into most of the detail of how I ended up building it.
+In [part I](/2019/03/09/multi-room-audio-I.html), I covered the planning (cough..) and design goals for my multi-room audio system. Part II goes into most of the detail of how I ended up building it.
 
 
 ## Pooooowwwwwweeeeerrrr!!!!!
