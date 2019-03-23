@@ -22,7 +22,7 @@ The two main things to decide were hardware for the passive speakers, and the so
 
 ### Hardware
 
-Having already built a few things from standard Raspberry Pi boards, I was pretty familiar with them and there are plenty of specialised OS images available, so that seemed like an obvious choice for the base. Having a spare one kicking its heels in the drawer helped. ![RasPi](/public/images/pi.png) 
+Having already built a few things from standard Raspberry Pi boards, I was pretty familiar with them and there are plenty of specialised OS images available, so that seemed like an obvious choice for the base. Having a spare one kicking its heels in the drawer helped. ![RasPi](/public/images/pi.jpg) 
 
 Just needed to find a compatible DAC/Amp as the sound from the Pi's headphone jack is widely known to be pretty woeful. IQAudIO and HiFiBerry were the likely candidates for this. Mostly because I prefer black to red, I went with [IQaudIO's DigiAmp+](http://iqaudio.co.uk/hats/9-pi-digiamp.html) ... ![IQAudio's DigiAmp+](/public/images/iq.jpg) ...which sits neatly on top of the Pi with some standoffs and plugs into the 40 pin GPIO header. This means the amp can supply power to the Pi and therefore only the amp needs a power supply via its barrel connector, the Pi doesn't need separate USB power. Nice.
 
@@ -44,6 +44,6 @@ The final decision was whether to custom build an image for the Pi's that includ
 
 This was the plan then. One machine acts as a Squeezebox server, this is the hub of the system that receives command and control messages from the client software - web browsers or mobile apps. The server listens for connections from players which are the machines that generate the signals to connected audio sinks like speakers and sound bars. It manages the connected players and displays them to the clients which can select them to play music to. The server also connects to music sources locally (I use NFS to enable it to mount a drive on another machine where all my music files are stored) and to external sources such as Internet radio stations or services like Spotify.
 
-![architecture](/public/images/architecture.png)
+![architecture](/public/images/architecture.jpg)
 
 Right, most of the important decisions made and the parts ordered, it was time to try and build something and see if it might work!
