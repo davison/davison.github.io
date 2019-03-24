@@ -35,7 +35,11 @@ Next I needed to cut the end of the power splitter and strip the cable so that i
 
 Nothing left to do but plug one of them into my player and see whether pretty lights came on or if something went BANG.
 
-![it works]({{ site.url }}/public/images/photo1.jpg) It works!
+Aaaargh - the barrel connector on the cable didn't fit the input on the IQaudIO DigiAmp+. The cable was a 2.1mm diameter and the board needed 2.5. Disaster. Luckily there are [some converters](https://www.amazon.co.uk/gp/product/B004HTFCYY/) for that but now I had to wait for those to arrive to see if that would fix it...
+
+![it works]({{ site.url }}/public/images/photo1.jpg)
+
+It works!
 
 As my badly blurred photo almost shows, the player on the corner of the desk has power from the transformer, networking and is using some old spare speaker wire to attach to a pair of Mission speakers. The player was instantly recognised by the server and so I could use the LMS web interface to select the player and output some music to it, which it played first time. Awesome!
 
