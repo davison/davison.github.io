@@ -4,7 +4,7 @@ highlighter:      pygments
 title: davison online
 email: darren@davisononline.org
 description: a home for things that had no better place to be.
-url: https://davison.github.io/
+url: https://davison.github.io
 
 # Build settings
 #markdown: kramdown
