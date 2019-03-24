@@ -26,7 +26,7 @@ my son plays for.
 
 ## Site
 
-* Built with [Jekyll](http://jekyllrb.com) using the [Hyde](https://github.com/poole/hyde) template
+* Built with [Jekyll](http://jekyllrb.com) using a modified [Hyde](https://github.com/poole/hyde) template
 * Developed on [GitHub](https://github.com/davison/davison.github.io) and hosted on [GitHub Pages](https://pages.github.com)
 * Edited in a combination of [ViM](https://www.vim.org/) and [vscode](https://code.visualstudio.com/)
 * ... on Linux. Obviously.
