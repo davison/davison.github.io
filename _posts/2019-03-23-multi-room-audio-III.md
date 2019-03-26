@@ -38,4 +38,4 @@ Everything so far working. Pis have network (albeit with a cable coming out of t
 
 It's not quite "multi-room" yet, but it was certainly taking shape. It was nice to be able to play around with the music output to the different speakers from the LMS server software and at this point I was able to test for the first time that the synchronisation of the different players worked as designed. It did so, very nicely and with absolutely no perceptible lag in the sound across the 2 pairs of speakers.
 
-In all honesty, I probably had to accept that the easy bit was done, and now I had to put the case somewhere, put the speakers in the rooms they were going to live in, and connect them all up together again. There were still unanswered questions about power, network AND signal cables.
+Now I had to put the case somewhere, put the speakers in the rooms they were going to live in, and connect them all up together again. There were still some unanswered questions about power, network AND signal cables.
