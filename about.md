@@ -6,9 +6,7 @@ permalink: /about/
 
 ## Me
 
-I'm older than I wish I was and younger than I hope to be. My life's shortened by being a [SWFC](https://www.swfc.co.uk) fan, made meaningful by my wife and family, and defined mostly by football, beer and computers. 
-
-There's not much else to know, although I have random qualifications as a football coach, cricket umpire and English (as a foreign language) teacher.
+I'm older than I wish I was and younger than I hope to be. My life's shortened by being a [SWFC](https://www.swfc.co.uk) fan, made meaningful by my wife and family, and defined mostly by football, beer and computers. I have random qualifications as a football coach, cricket umpire and English (as a foreign language) teacher.
 
 Work related stuff you can see at [LinkedIn]({{ site.author.work }}).
 
@@ -24,7 +22,7 @@ my son plays for.
 * A bunch of work related stuff that we hope to be able to open source soon and add to the rather lightweight list of things we have done so far at [Orbit Tech](https://github.com/orbit-tech)
 
 
-## Site
+## This Site
 
 * Built with [Jekyll](http://jekyllrb.com) using a modified [Hyde](https://github.com/poole/hyde) template
 * Developed on [GitHub](https://github.com/davison/davison.github.io) and hosted on [GitHub Pages](https://pages.github.com)
