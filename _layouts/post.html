@@ -23,3 +23,10 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+{% if page.comments %}
+{% include disqus.html %}
+{% else %}
+<div>
+  <p><em>Comments are disabled. If the post is part of a series, they may only be enabled on the first.</em></p>
+</div>
+{% endif %}
