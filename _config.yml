@@ -13,3 +13,6 @@ author:
   work: https://linkedin.com/in/davisononline
   git: davison
   
+plugins:
+  - jekyll-sitemap
+  
