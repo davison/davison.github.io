@@ -6,7 +6,9 @@ permalink: /about/
 
 ## Me
 
-I'm older than I wish I was and younger than I hope to be. My life's shortened by being a [SWFC](https://www.swfc.co.uk) fan, made meaningful by my wife and family, and defined mostly by football, beer and computers. I have random qualifications as a football coach, cricket umpire and English (as a foreign language) teacher.
+I'm older than I wish I was and younger than I hope to be. My life's shortened by being a [SWFC](https://www.swfc.co.uk) fan, made meaningful by my wife and family, and defined mostly by football, beer and computers. 
+
+I have random qualifications as a football coach, cricket umpire and English (as a foreign language) teacher. I'm a fan of digital rights and individual privacy, supporting [Tor Project](https://torproject.org), [Open Rights Group](https://www.openrightsgroup.org/) and the [Electronic Frontier Foundation](https://www.eff.org/)
 
 Work related stuff you can see at [LinkedIn]({{ site.author.work }}).
 
