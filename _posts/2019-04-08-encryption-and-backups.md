@@ -29,9 +29,9 @@ drwxr-xr-x    2 darren darren     4096 Oct 23 13:47 ECRYPTFS_FNEK_ENCRYPTED.FWb.
 ...
 ```
 
-So, when it comes to backing up the contents of these directories, you should only be backing up the encrypted version and not the plain text versions. Seems obvious, but I've seen more than a few people suggesting that you do precisely that (rsync the plain text version somewhere while logged in) when answering queries about backing up encrypted home directories. Don't do that.
+When it comes to backing up the contents of these directories, you should only be backing up the encrypted version and not the plain text versions. Seems obvious, but when answering queries about backing up encrypted home directories, I've seen more than a few people suggesting that you do precisely the opposite; i.e. rsync the plain text version somewhere while logged in. Don't do that.
 
-Whatever backup method you choose - dedicated backup software, simple rsync, [rsnapshot](https://www.rsnapshot.org) (which is the one I use) - target the `/home/.ecryptfs` directory as the source. This is the relevant bit from my `/etc/rsnapshot.conf` file for the machine named `hepburn` which is my main desktop.
+Whatever backup method you choose - dedicated backup software, simple rsync, [rsnapshot](https://www.rsnapshot.org) (the one I use) - specify the `/home/.ecryptfs` directory as the source. This is the relevant bit from my `/etc/rsnapshot.conf` file for the machine named `hepburn` which is my main desktop.
 
 ```
 backup	/home/.ecryptfs			hepburn/
@@ -42,7 +42,7 @@ backup	/root/				hepburn/
 
 All good. Your backed up copies of `$HOME` are as safe on disk as your master copy. If you have a problem and need to restore data, simply mount a temporary decrypted version of your backup directory and copy out the files you need before unmounting the temporary directory again. And this is where I nearly had a heart attack yesterday because I forgot how to do that. Since Ubuntu does it for me on my home dir at login, and I'd not needed to recover files for some years, I just got completely lost with the steps to perform what I outlined above. Pretty stupid of me, so here I'll document the steps for my own benefit (maybe yours too if you're here reading this).
 
-When you first encrypt your partition or directory at install time, ubuntu (ecryptfs if you're performing it manually) will generate a recovery password and ask you to store it safely. It's a 32-char hex key and is used as the passphrase for the private key to decrypt the data. If you do lose it, you can recover it with the `ecryptfs-unwrap-passphrase` utility, which is basically what ubuntu does on login in order to use it temporarily before re-wrapping it. I had kept mine safe in my [key and password manager](https:///www.keepassx.org/) so I had it ready to use.
+When you first encrypt your partition or directory at install time, ubuntu (ecryptfs) will generate a recovery password and ask you to store it safely. It's a 32-char hex key and is used as the passphrase for the private key to decrypt the data. If you do lose it, you can recover it with the `ecryptfs-unwrap-passphrase` utility, which is basically what ubuntu does on login in order to use it temporarily before re-wrapping it. I had kept mine safe in my [key and password manager](https:///www.keepassx.org/) so I had it ready to use.
 
 Transcript of the salient commands below then as a reference for what to do next time I'm careless enough to delete stuff I *really* need and dumb enough to forget how to recover.
 
