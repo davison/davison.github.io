@@ -3,6 +3,7 @@ layout: post
 title: Encryption, Backups and Recovery
 abstract: Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.
 comments: true
+tags: linux encryption backup privacy ecryptfs
 ---
 
 Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.

@@ -2,6 +2,7 @@
 layout: post
 title: Multi Room Audio - part IV
 abstract: The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.
+tags: audio pi hardware smarthome
 ---
 
 The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.

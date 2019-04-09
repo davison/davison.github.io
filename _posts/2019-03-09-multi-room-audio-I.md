@@ -3,6 +3,7 @@ layout: post
 title: Multi Room Audio - part I
 abstract: Before Christmas last year, I started playing around with some tech that I hoped would eventually become a multi-room audio system. Although I got a bit distracted with some smart-home stuff (which I might eventually write about), I then came back to the original goal of listening to music and radio in various places around the house.
 comments: true
+tags: audio pi hardware smarthome
 ---
 
 Before Christmas last year, I started playing around with some tech that I hoped would eventually become a multi-room audio system. Although I got a bit distracted with some smart-home stuff (which I might eventually write about), I then came back to the original goal of listening to music and radio in various places around the house.

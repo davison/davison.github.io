@@ -4,8 +4,10 @@ description: a home for things that had no better place to be.
 url: https://davison.github.io
 
 # Build settings
-#markdown: kramdown
 paginate: 5
+related:
+  max-posts: 5
+  min-common-tags: 2
 
 github: [metadata]
 

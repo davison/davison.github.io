@@ -2,6 +2,7 @@
 layout: post
 title: Multi Room Audio - part III
 abstract: At this point, I'd got a prototype working and understood how all the key pieces of my system will hang together. The next major phase is to expand the number of players and work out exactly where all the components are going to be located and how they are going to be cabled together.
+tags: audio pi hardware smarthome
 ---
 
 At this point, I'd got a [prototype]({{ site.url }}/2019/03/16/multi-room-audio-II.html) working and understood how all the key pieces of my system will hang together. The next major phase is to expand the number of players and work out exactly where all the components are going to be located and how they are going to be cabled together.
