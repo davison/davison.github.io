@@ -3,7 +3,7 @@ layout: post
 title: Office Revamp
 abstract: Decided to spruce up the home office and do something about the growing cityscape of wires and gadgets under the desk. A story in pictures.
 comments: true
-tags: pi hardware smarthome openhab
+tags: home
 ---
 
 Decided to spruce up the home office and do something about the growing cityscape of wires and gadgets under the desk. A story in pictures.
