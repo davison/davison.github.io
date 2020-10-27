@@ -3,7 +3,7 @@ layout: post
 title: Privacy in the UK
 abstract: For what feels like the millionth time in the last 15 years, uk.gov is attempting to either legislate against mathematics itself with encryption "back doors", or simply make our use of private communication illegal.
 comments: true
-tags: home
+tags: privacy encryption openrights law
 ---
 
 For what feels like the millionth time in the last 15 years, uk.gov is attempting to either legislate against mathematics itself with encryption "back doors", or simply make our use of private communication illegal. As ever, their weapon of choice is the promotion of hysteria in the population and the tabloid press platformed on a rhetoric of terrorism and child exploitation. Today, their random spin machine has selected: "make it illegal" and "won't somebody think of the children?" ([ORG has the story](https://www.openrightsgroup.org/blog/online-harms-encryption-under-attack/))
