@@ -59,15 +59,15 @@
   }
   
   body {
-    color: #515151;
-    background-color: #fff;
+    color: #a1a1a1;
+    background-color: #202020;
     -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: 100%;
   }
   
   /* No `:visited` state is required by default (browsers will use `a`) */
   a {
-    color: #268bd2;
+    color: #8840a5;
     text-decoration: none;
   }
   a strong {
@@ -76,7 +76,7 @@
   /* `:focus` is linked to `:hover` for basic accessibility */
   a:hover,
   a:focus {
-    text-decoration: underline;
+    color: rgb(188, 128, 216);
   }
   
   /* Headings */
@@ -84,7 +84,7 @@
     margin-bottom: .5rem;
     font-weight: bold;
     line-height: 1.25;
-    color: #313131;
+    color: #aaa;
     text-rendering: optimizeLegibility;
   }
   h1 {
@@ -170,7 +170,7 @@
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    background-color: #f9f9f9;
+    background-color: #000;
   }
   pre code {
     padding: 0;
@@ -336,7 +336,7 @@
   .page-title,
   .post-title,
   .post-title a {
-    color: #303030;
+    color: #ddd;
   }
   .page-title,
   .post-title {
@@ -369,8 +369,7 @@
     color: #999;
   }
   .related-posts li a:hover {
-    color: #268bd2;
-    text-decoration: none;
+    color: rgb(188, 128, 216);
   }
   .related-posts li a:hover small {
     color: inherit;
@@ -397,7 +396,7 @@
   .pagination-item {
     display: block;
     padding: 1rem;
-    border: 1px solid #eee;
+    border: 0px solid #333;
   }
   .pagination-item:first-child {
     margin-bottom: -1px;
@@ -405,7 +404,7 @@
   
   /* Only provide a hover state for linked pagination items */
   a.pagination-item:hover {
-    background-color: #f5f5f5;
+    background-color: #333;
   }
   
   @media (min-width: 30em) {
@@ -593,7 +592,7 @@
   }
   .sidebar-nav-item.active {
     font-weight: bold;
-    color: red;
+    color: rgb(188, 128, 216);
   }
   
   /* Sticky sidebar
