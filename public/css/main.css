@@ -150,13 +150,13 @@
   /* Code */
   code,
   pre {
-    font-family: Menlo, Monaco, "Courier New", monospace;
+    font-family: Menlo, Monaco, Inconsolata, "Liberation Mono", monospace;
   }
   code {
     padding: .25em .5em;
     font-size: 85%;
-    color: #bf616a;
-    background-color: #f9f9f9;
+    color: #bbb;
+    background-color: #000;
     border-radius: 3px;
   }
   pre {
