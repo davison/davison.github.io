@@ -11,12 +11,3 @@ _drafts/
 
 # Editor
 .vscode/
-
-# Jekyll legacy (removed once migration is complete, kept here defensively
-# in case anyone still has a checkout that runs `bundle exec jekyll`)
-_site
-.sass-cache
-.jekyll-metadata
-vendor/
-.bundle/
-crib
