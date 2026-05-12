@@ -1,9 +1,14 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Fixing broken sync in Brave Browser
-abstract: The sync functionality in the Brave browser is a useful way to keep settings, extensions and bookmarks synchronized on a number of different devices. But it can end up in a broken state where you are unable to leave or reset the sync chain on one or more of the sync'd devices. Here's how to fix that if it happens to you, without creating a new profile or re-installing the browser.
-comments: true
-tags: encryption backup privacy web
+date: 2020-12-18
+description: The sync functionality in the Brave browser is a useful way to keep settings, extensions and bookmarks synchronized on a number of different devices. But it can end up in a broken state where you are unable to leave or reset the sync chain on one or more of the sync'd devices. Here's how to fix that if it happens to you, without creating a new profile or re-installing the browser.
+tags:
+  - encryption
+  - backup
+  - privacy
+  - web
 ---
 
 The sync functionality in the [Brave browser](https://brave.com/) is a useful way to keep settings, extensions and bookmarks synchronized on a number of different devices. But it can end up in a broken state where you are unable to leave or reset the sync chain on one or more of the sync'd devices. Here's how to fix that if it happens to you, without creating a new profile or re-installing the browser.

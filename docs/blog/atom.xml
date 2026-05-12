@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>davison online</title>
+  <subtitle>a home for things that had no better place to be.</subtitle>
+  <link href="https://davison.github.io/blog/atom.xml" rel="self" />
+  <link href="https://davison.github.io/blog/" rel="alternate" />
+  <id>https://davison.github.io/blog/</id>
+  <updated>2025-12-12T00:00:00Z</updated>
+  <author>
+    <name>Darren Davison</name>
+  </author>
+  <entry>
+    <title>HA Sinkhole - High Availability DNS Without the Headache</title>
+    <link href="https://davison.github.io/blog/posts/2025-12-12-hello-ha-sinkhole/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2025-12-12-hello-ha-sinkhole/</id>
+    <updated>2025-12-12T00:00:00Z</updated>
+    <summary>I've been running Pi-hole for years now. If you're not familiar with it, it's a DNS-based ad blocker that sits on your network and intercepts requests for known advertising and tracking domains, returning nothing instead of letting them load. It's brilliant - browse the web without ads, stop smart TVs phoning home, block tracker domains on mobile apps. Once you've experienced an ad-free network, there's no going back. But there was always this nagging issue.. what happens when the Pi goes down?</summary>
+  </entry>
+  <entry>
+    <title>Philips - another company that wants to steal your data</title>
+    <link href="https://davison.github.io/blog/posts/2025-01-12-philips-hue-data-thrft/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2025-01-12-philips-hue-data-thrft/</id>
+    <updated>2025-01-12T00:00:00Z</updated>
+    <summary>Philips, via their Hue hub, have recently decided they have a right to steal your data, weaken your security (while lying that it improves it) and cripple products you bought from them in good faith if you refuse to comply with the lowlife they employ to make such decisions. I chose not to of course and now this company that I previously had no beef with is the latest addition to my list of "never spend another penny on any product of theirs for the rest of my life" list.</summary>
+  </entry>
+  <entry>
+    <title>Wayland Rice - part III</title>
+    <link href="https://davison.github.io/blog/posts/2024-08-31-wayland-rice-III/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2024-08-31-wayland-rice-III/</id>
+    <updated>2024-08-31T00:00:00Z</updated>
+    <summary>Is there a better approach to ad hoc terminals in a tiling wm? I think I found one that I quite like.</summary>
+  </entry>
+  <entry>
+    <title>Wayland Rice - part II</title>
+    <link href="https://davison.github.io/blog/posts/2024-08-18-wayland-rice-II/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2024-08-18-wayland-rice-II/</id>
+    <updated>2024-08-18T00:00:00Z</updated>
+    <summary>Thanks to all the brilliant upstream work from wayland/mesa/linux/nvidia devs, it looks like Wayland is fully usable for me now - time to get to work replicating the desktop experience I refined over many months in bspwm, sxhkd, polybar and others.</summary>
+  </entry>
+  <entry>
+    <title>Wayland Rice - part I</title>
+    <link href="https://davison.github.io/blog/posts/2024-08-13-wayland-rice-I/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2024-08-13-wayland-rice-I/</id>
+    <updated>2024-08-13T00:00:00Z</updated>
+    <summary>Some recent updates to nvidia and mesa modules (maybe others) finally made it possible to switch to wayland for me full time. So I did.</summary>
+  </entry>
+  <entry>
+    <title>Escaping the Cult of Google</title>
+    <link href="https://davison.github.io/blog/posts/2022-12-16-escaping-the-cult-of-google/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2022-12-16-escaping-the-cult-of-google/</id>
+    <updated>2022-12-16T00:00:00Z</updated>
+    <summary>For a long time now I've been getting more and more concerned about the damage being done to me through my membership of the "Cult of Google". I'd long shunned the Chrome browser and the Google search engine, as well as GMail for personal use. But weaning myself off the rest of the chocolate factory product suite is overdue.</summary>
+  </entry>
+  <entry>
+    <title>OpenHAB Upgrade (to HomeAssistant!)</title>
+    <link href="https://davison.github.io/blog/posts/2021-01-16-openhab3-upgrade/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2021-01-16-openhab3-upgrade/</id>
+    <updated>2021-01-16T00:00:00Z</updated>
+    <summary>OpenHAB 3.0 was released in December, time to upgrade from my 2.5 installation; so I had intended.</summary>
+  </entry>
+  <entry>
+    <title>Fixing broken sync in Brave Browser</title>
+    <link href="https://davison.github.io/blog/posts/2020-12-18-brave-sync/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2020-12-18-brave-sync/</id>
+    <updated>2020-12-18T00:00:00Z</updated>
+    <summary>The sync functionality in the Brave browser is a useful way to keep settings, extensions and bookmarks synchronized on a number of different devices. But it can end up in a broken state where you are unable to leave or reset the sync chain on one or more of the sync'd devices. Here's how to fix that if it happens to you, without creating a new profile or re-installing the browser.</summary>
+  </entry>
+  <entry>
+    <title>Privacy in the UK</title>
+    <link href="https://davison.github.io/blog/posts/2020-10-26-privacy-in-the-uk/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2020-10-26-privacy-in-the-uk/</id>
+    <updated>2020-10-26T00:00:00Z</updated>
+    <summary>For what feels like the millionth time in the last 15 years, uk.gov is attempting to either legislate against mathematics itself with encryption "back doors", or simply make our use of private communication illegal.</summary>
+  </entry>
+  <entry>
+    <title>Office Revamp</title>
+    <link href="https://davison.github.io/blog/posts/2020-05-30-office-revamp/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2020-05-30-office-revamp/</id>
+    <updated>2020-05-30T00:00:00Z</updated>
+    <summary>Decided to spruce up the home office and do something about the growing cityscape of wires and gadgets under the desk. A story in pictures.</summary>
+  </entry>
+  <entry>
+    <title>Home Automation First Steps</title>
+    <link href="https://davison.github.io/blog/posts/2019-05-06-home-automation-first-steps/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-05-06-home-automation-first-steps/</id>
+    <updated>2019-05-06T00:00:00Z</updated>
+    <summary>I dipped my toe in the smart home automation waters after I came across OpenHAB while researching options for the multi-room audio system that I wanted to build. As a strong advocate of privacy, I wanted to avoid cloud based solutions like Alexa, Google Home and others.</summary>
+  </entry>
+  <entry>
+    <title>Encryption, Backups and Recovery</title>
+    <link href="https://davison.github.io/blog/posts/2019-04-08-encryption-and-backups/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-04-08-encryption-and-backups/</id>
+    <updated>2019-04-08T00:00:00Z</updated>
+    <summary>Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.</summary>
+  </entry>
+  <entry>
+    <title>Multi Room Audio - part IV</title>
+    <link href="https://davison.github.io/blog/posts/2019-03-30-multi-room-audio-IV/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-03-30-multi-room-audio-IV/</id>
+    <updated>2019-03-30T00:00:00Z</updated>
+    <summary>The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.</summary>
+  </entry>
+  <entry>
+    <title>Multi Room Audio - part III</title>
+    <link href="https://davison.github.io/blog/posts/2019-03-23-multi-room-audio-III/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-03-23-multi-room-audio-III/</id>
+    <updated>2019-03-23T00:00:00Z</updated>
+    <summary>At this point, I'd got a prototype working and understood how all the key pieces of my system will hang together. The next major phase is to expand the number of players and work out exactly where all the components are going to be located and how they are going to be cabled together.</summary>
+  </entry>
+  <entry>
+    <title>Multi Room Audio - part II</title>
+    <link href="https://davison.github.io/blog/posts/2019-03-16-multi-room-audio-II/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-03-16-multi-room-audio-II/</id>
+    <updated>2019-03-16T00:00:00Z</updated>
+    <summary>In part I, I covered the planning (cough..) and design goals for my multi-room audio system. Part II goes into most of the detail of how I ended up building it.</summary>
+  </entry>
+  <entry>
+    <title>Multi Room Audio - part I</title>
+    <link href="https://davison.github.io/blog/posts/2019-03-09-multi-room-audio-I/" rel="alternate" />
+    <id>https://davison.github.io/blog/posts/2019-03-09-multi-room-audio-I/</id>
+    <updated>2019-03-09T00:00:00Z</updated>
+    <summary>Before Christmas last year, I started playing around with some tech that I hoped would eventually become a multi-room audio system. Although I got a bit distracted with some smart-home stuff (which I might eventually write about), I then came back to the original goal of listening to music and radio in various places around the house.</summary>
+  </entry>
+</feed>

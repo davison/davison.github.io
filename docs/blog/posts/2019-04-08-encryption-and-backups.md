@@ -1,9 +1,15 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Encryption, Backups and Recovery
-abstract: Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.
-comments: true
-tags: linux encryption backup privacy ecryptfs
+date: 2019-04-08
+description: Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.
+tags:
+  - linux
+  - encryption
+  - backup
+  - privacy
+  - ecryptfs
 ---
 
 Encryption is a good thing, especially in my country where the government's desire to know and control every detail of private citizens' lives would make the Chinese and the Russians blush :) But don't lock yourself out of your own data as I thought I had yesterday.

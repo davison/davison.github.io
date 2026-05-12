@@ -1,12 +1,17 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Home Automation First Steps
-abstract: I dipped my toe in the smart home automation waters after I came across OpenHAB while researching options for the multi-room audio system that I wanted to build. As a strong advocate of privacy, I wanted to avoid cloud based solutions like Alexa, Google Home and others.
-comments: true
-tags: pi hardware smarthome openhab
+date: 2019-05-06
+description: I dipped my toe in the smart home automation waters after I came across OpenHAB while researching options for the multi-room audio system that I wanted to build. As a strong advocate of privacy, I wanted to avoid cloud based solutions like Alexa, Google Home and others.
+tags:
+  - pi
+  - hardware
+  - smarthome
+  - openhab
 ---
 
-I dipped my toe in the smart home automation waters after I came across [OpenHAB](https://www.openhab.org) while researching options for the [multi-room audio system]({{ site.url }}/2019/03/09/multi-room-audio-I.html) that I wanted to build. As a strong advocate of privacy, I wanted to avoid cloud based solutions like Alexa, Google Home and others. 
+I dipped my toe in the smart home automation waters after I came across [OpenHAB](https://www.openhab.org) while researching options for the [multi-room audio system](/blog/posts/2019-03-09-multi-room-audio-I/) that I wanted to build. As a strong advocate of privacy, I wanted to avoid cloud based solutions like Alexa, Google Home and others. 
 
 If you're unaware, these kinds of services work by sending your voice commands captured through smart speakers to Amazon (or Apple/Google/Microsoft) where the voice is analysed by artificial intelligence services. Unfortunately, that means the recordings are available not just to computer software AI at those companies, but to [employees](https://www.telegraph.co.uk/technology/2019/04/11/amazon-employees-listen-thousands-customer-alexa-recordings/) too. There's even evidence that mistakes made in picking up the trigger words (like "Alexa" or "OK Google...") can lead to anything being [recorded and actions being taken](https://www.techspot.com/news/74820-amazon-explains-how-alexa-secretly-recorded-couple-conversation.html) that you certainly didn't want.
 
@@ -37,7 +42,7 @@ At present I have about 5 TP-Link power plugs in use. They're too big and very u
 
 ## Other Stuff
 
-OpenHAB works with Squeezebox, so yay! it works with my [multi-room audio system]({{ site.url }}/2019/03/09/multi-room-audio-I.html) although the player controls are lacking in some major features (browsing music). Mostly I have them configured in OH to be able to control play/pause, often as part of rules (see below).
+OpenHAB works with Squeezebox, so yay! it works with my [multi-room audio system](/blog/posts/2019-03-09-multi-room-audio-I/) although the player controls are lacking in some major features (browsing music). Mostly I have them configured in OH to be able to control play/pause, often as part of rules (see below).
 
 Both my TVs can be controlled to an extent too (one LG WebOS TV and one Samsung UXsomethingOrOther) but they're a bit erratic. Again, mostly handy for power on/off or mute from a distance and definitely not a replacement for any standard remote control device. You can send popup notifications to the LG screen though which is cool, but I haven't found a really practical use for that in my setup yet.
 
@@ -47,7 +52,7 @@ I've played with some other random integrations like ChromeCast and Plex server,
 
 Took me a while and some experimentation to figure out how the various groups of items would interact and how best to lay them out in what OH terms a "sitemap". This is a UI defined in 'code' that works with the OH mobile apps and with their "basic" UI through a web browser. I've also created a complete set of custom icons for my sitemap by downloading and editing (in [Inkscape](https://inkscape.org/)) freely available material design sets such as [these](https://material.io/resources/icons/?style=baseline). This makes a lot more sense after you get your Things and Items coded. 
 
-![main site map]({{ site.url }}/public/images/openhab/hillside-sitemap.png)
+![main site map](/assets/images/openhab/hillside-sitemap.png)
 
 The nice thing is that you can specify Group items in the sitemap and allow OH to lay them out in some default order with controls that match the item types, or you can exercise full control over each entry, overriding labels, icons and ordering as you choose.
 
@@ -74,10 +79,10 @@ Group item=RM_Hall {
     Slider item=BU_HallLightDoor_Brite
 }
 ```
-![hall site map]({{ site.url }}/public/images/openhab/hall-lights-sitemap.png)
+![hall site map](/assets/images/openhab/hall-lights-sitemap.png)
 
 .. where the sliders can be adjusted individually or as a group with the "Hall Lights" slider.
-![hall lights on]({{ site.url }}/public/images/openhab/hall-lights-on.png)
+![hall lights on](/assets/images/openhab/hall-lights-on.png)
 
 
 ## Rules
@@ -113,7 +118,7 @@ String sLightsOn   "Turn stuff on (getting dark)" <sunset>   (Home)
 
 and that enables a button to be assigned to it in the site map with `Switch item=sLightsOn mappings=[ON="Select"]` which renders like this in the app:
 
-![lights-on]({{ site.url }}/public/images/openhab/lights-on-action.png)
+![lights-on](/assets/images/openhab/lights-on-action.png)
 
 Now when I press that button, about 12 lights and power switches come on in various parts of the house. Neat. I also have very similar setups to turn everything off (when going to bed at night) and an intermediate one that turns quite a few things off and dims some of the other bulbs - we use this one after the hustle and bustle of early evening and dinner is done when we're mostly relaxing in front of the TV. Thanks to the power of groups in OH, the late evening power off is even simpler and powers off a number of other things that might have been used, such as TVs and audio players.
 

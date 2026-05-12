@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: HA Sinkhole - High Availability DNS Without the Headache
-abstract: I've been running Pi-hole for years now. If you're not familiar with it, it's a DNS-based ad blocker that sits on your network and intercepts requests for known advertising and tracking domains, returning nothing instead of letting them load. It's brilliant - browse the web without ads, stop smart TVs phoning home, block tracker domains on mobile apps. Once you've experienced an ad-free network, there's no going back. But there was always this nagging issue.. what happens when the Pi goes down?
-comments: true
-tags: privacy smarthome
+date: 2025-12-12
+description: I've been running Pi-hole for years now. If you're not familiar with it, it's a DNS-based ad blocker that sits on your network and intercepts requests for known advertising and tracking domains, returning nothing instead of letting them load. It's brilliant - browse the web without ads, stop smart TVs phoning home, block tracker domains on mobile apps. Once you've experienced an ad-free network, there's no going back. But there was always this nagging issue.. what happens when the Pi goes down?
+tags:
+  - privacy
+  - smarthome
 ---
 
 I've been running [Pi-hole](https://github.com/pi-hole/pi-hole) for years now. If you're not familiar with it, it's a DNS-based ad blocker that sits on your network and intercepts requests for known advertising and tracking domains, returning nothing instead of letting them load. It's brilliant - browse the web without ads, stop smart TVs phoning home, block tracker domains on mobile apps. Once you've experienced an ad-free network, there's no going back. But there was always this nagging issue.. what happens when the Pi goes down?

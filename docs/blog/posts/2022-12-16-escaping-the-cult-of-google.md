@@ -1,9 +1,13 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Escaping the Cult of Google
-abstract: For a long time now I've been getting more and more concerned about the damage being done to me through my membership of the "Cult of Google". I'd long shunned the Chrome browser and the Google search engine, as well as GMail for personal use. But weaning myself off the rest of the chocolate factory product suite is overdue.
-comments: true
-tags: privacy security openrights
+date: 2022-12-16
+description: For a long time now I've been getting more and more concerned about the damage being done to me through my membership of the "Cult of Google". I'd long shunned the Chrome browser and the Google search engine, as well as GMail for personal use. But weaning myself off the rest of the chocolate factory product suite is overdue.
+tags:
+  - privacy
+  - security
+  - openrights
 ---
 
 For a long time now I've been getting more and more concerned about the damage being done to me through my membership of the "Cult of Google". I'd long shunned the Chrome browser and the Google search engine, as well as GMail for personal use. But weaning myself off the rest of the chocolate factory product suite is overdue.

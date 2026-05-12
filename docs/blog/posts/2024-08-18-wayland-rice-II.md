@@ -1,16 +1,20 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Wayland Rice - part II
-abstract: Thanks to all the brilliant upstream work from wayland/mesa/linux/nvidia devs, it looks like Wayland is fully usable for me now - time to get to work replicating the desktop experience I refined over many months in bspwm, sxhkd, polybar and others.
-tags: linux desktop
+date: 2024-08-18
+description: Thanks to all the brilliant upstream work from wayland/mesa/linux/nvidia devs, it looks like Wayland is fully usable for me now - time to get to work replicating the desktop experience I refined over many months in bspwm, sxhkd, polybar and others.
+tags:
+  - linux
+  - desktop
 ---
 
-Thanks to all the brilliant upstream work from wayland/mesa/linux/nvidia devs, it looks like Wayland is fully [usable]({{ site.url }}/2024/08/13/wayland-rice-I.html) for me now - time to get to work replicating the desktop experience I refined over many months in bspwm, sxhkd, polybar and others.
+Thanks to all the brilliant upstream work from wayland/mesa/linux/nvidia devs, it looks like Wayland is fully [usable](/blog/posts/2024-08-13-wayland-rice-I/) for me now - time to get to work replicating the desktop experience I refined over many months in bspwm, sxhkd, polybar and others.
 
 
 ## General Theming
 
-I like and use the [dracula](https://draculatheme.com/) dark theme palette, and with so many available configs ready to go for it, you can quickly and easily make a very consistent and integrated looking desktop environment with it, regardless of the mix of software tools you choose. This is the end result; I'll break down all the main apps and configs with some additional sweetners on the way ![desktop]({{ site.url }}/public/images/wayland/desktop.png)
+I like and use the [dracula](https://draculatheme.com/) dark theme palette, and with so many available configs ready to go for it, you can quickly and easily make a very consistent and integrated looking desktop environment with it, regardless of the mix of software tools you choose. This is the end result; I'll break down all the main apps and configs with some additional sweetners on the way ![desktop](/assets/images/wayland/desktop.png)
 _Note: windows are all set to floating here just to highlight the theming a bit better, normally they would all be tiled other than the rofi application launcher_
 
 
@@ -173,11 +177,11 @@ button.urgent {
 }
 ```
 
-![waybar-tags]({{ site.url }}/public/images/wayland/waybar-tags.png)
+![waybar-tags](/assets/images/wayland/waybar-tags.png)
 
 There's not much to the styling of the modules on the right, other than to set the appropriate foreground `color` property in the `style.css` for the relevant module.
 
-![waybar-right]({{ site.url }}/public/images/wayland/waybar-right.png)
+![waybar-right](/assets/images/wayland/waybar-right.png)
 
 
 ### Custom Waybar Modules
@@ -186,7 +190,7 @@ Code for my trivial custom [waybar-modules](https://github.com/davison/waybar-mo
 
 I use one that just periodically checks which packages need upgrading and outputs the count of them on the bar with a package icon. When you hover over the tooltip shows the actual packages. This works with `pacman` for Arch but could easily be adapted for any other package manager from another distro
 
-![pacman-module]({{ site.url }}/public/images/wayland/pacman-module.png)
+![pacman-module](/assets/images/wayland/pacman-module.png)
 
 The `~/.config/waybar/config` snippet to define it is:
 
@@ -208,10 +212,10 @@ and a bit of custom `style.css`
 }
 ```
 
-The other module is for my [multi-room audio]({{ site.url }}/2019/03/09/multi-room-audio-I.html) system, based on squeezebox (read the posts on that to see why I chose it!)
+The other module is for my [multi-room audio](/blog/posts/2019-03-09-multi-room-audio-I/) system, based on squeezebox (read the posts on that to see why I chose it!)
 
-![squeezebox-paused]({{ site.url }}/public/images/wayland/squeezebox-paused.png)
-![squeezebox-playing]({{ site.url }}/public/images/wayland/squeezebox-playing.png)
+![squeezebox-paused](/assets/images/wayland/squeezebox-paused.png)
+![squeezebox-playing](/assets/images/wayland/squeezebox-playing.png)
 
 Config for the waybar module:
 
@@ -441,7 +445,7 @@ I use another script, launched from the river `init` file, to rotate the wallpap
 
 My wallpapers are either predominantly purple, dracula/vampire themed, or both :) 
 
-![wallpapers]({{ site.url }}/public/images/wayland/wallpapers.png)
+![wallpapers](/assets/images/wayland/wallpapers.png)
 
 ```bash
 #!/usr/bin/env bash
@@ -550,16 +554,16 @@ riverctl map normal Control+Alt Backspace spawn swaylock-desktop-image.sh
 and here are the lock screens with 4 states of 
 
 1. unlock in progress
-![unlocking]({{ site.url }}/public/images/wayland/swaylock2.png)
+![unlocking](/assets/images/wayland/swaylock2.png)
 
 1. verifying
-![verifying]({{ site.url }}/public/images/wayland/swaylock1.png)
+![verifying](/assets/images/wayland/swaylock1.png)
 
 1. incorrect password
-![wrong]({{ site.url }}/public/images/wayland/swaylock3.png)
+![wrong](/assets/images/wayland/swaylock3.png)
 
 1. input cleared
-![clear]({{ site.url }}/public/images/wayland/swaylock4.png)
+![clear](/assets/images/wayland/swaylock4.png)
 
 
 ## Wrap Up

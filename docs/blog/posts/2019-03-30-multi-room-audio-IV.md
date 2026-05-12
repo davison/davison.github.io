@@ -1,8 +1,14 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Multi Room Audio - part IV
-abstract: The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.
-tags: audio pi hardware smarthome
+date: 2019-03-30
+description: The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.
+tags:
+  - audio
+  - pi
+  - hardware
+  - smarthome
 ---
 
 The remaining work for this project consisted largely of trying to decide where to locate the unit with my rack of RasPis and how to gracefully manage the cables for power, network and speakers.
@@ -19,32 +25,32 @@ Well, I already had networking behind the TV in the form of both power line adap
 
 OK, lounge player done, back to the play room cupboard to cut a hole in the corner of the floor, screw a 47mm deep back box over it, use some duck tape to protect cables as they're being passed through and we're away.
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo10.jpg)
+![backbox and speaker cable](/assets/images/mra/photo10.jpg)
 
 Reason for the back box is that I had bought one of these pretty looking things to be able to plug cables from the PC case into using standard audio banana plugs.
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo11.jpg)
+![backbox and speaker cable](/assets/images/mra/photo11.jpg)
 
 Stripped cables attach into the back..
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo12.jpg)
+![backbox and speaker cable](/assets/images/mra/photo12.jpg)
 
 .. and it's nice and neat ready for the PC case with the short cables attached from the DigiAmp+ units and the banana plugs.
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo13.jpg)
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo14.jpg)
+![backbox and speaker cable](/assets/images/mra/photo13.jpg)
+![backbox and speaker cable](/assets/images/mra/photo14.jpg)
 
 The view from the underside in the basement showing the fed through trunk of cables looping down before coming up to be held against the joists with some ad hoc "cable supports", or nails.
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo15.jpg)
+![backbox and speaker cable](/assets/images/mra/photo15.jpg)
 
 So now, with normal cable clips I could run the various speaker cables to the underside of where I needed them to come up into the three rooms that would initially have the passive speakers, the play room itself, the kitchen and the dining room. It was a long and tiring job because of the awkward spaces - especially the dining room which is at the front of the house and needed a lot of crawling around through dirt and cable clipping by torch light.
 
-![backbox and speaker cable]({{ site.url }}/public/images/mra/photo16.jpg)
+![backbox and speaker cable](/assets/images/mra/photo16.jpg)
 
 The main case is now in place in the cupboard with the network supply to the ethernet switch inside via a spare power line adapter plug that I had. This gives me the three rooms with passive speakers, plus the lounge player connecting to the TV sound bar making four.
 
-![PC case in cupboard]({{ site.url }}/public/images/mra/photo17.jpg)
+![PC case in cupboard](/assets/images/mra/photo17.jpg)
 
 ## Software Players
 
@@ -58,15 +64,15 @@ Final piece to cover is the command and control software.. the app that communic
 
 [Squeezer](https://play.google.com/store/apps/details?id=uk.org.ngo.squeezer&hl=en_US) is what we have on our phones - and installed on the "Remote/Garden" player too, so that has dual function. It's an old Android app, but it's free and does the job for now. There are a couple of paid-for options too but I didn't bother with them. Below, Emma is playing in the kitchen :)
 
-![player screen]({{ site.url }}/public/images/mra/mscreen1.jpg) ![track listing]({{ site.url }}/public/images/mra/mscreen2.jpg) 
+![player screen](/assets/images/mra/mscreen1.jpg) ![track listing](/assets/images/mra/mscreen2.jpg) 
 
 In the player menu, all of the connected players can be viewed and controlled. It shows what each is (or was last) playing.
 
-![a]({{ site.url }}/public/images/mra/mscreen3.jpg) 
+![a](/assets/images/mra/mscreen3.jpg) 
 
 Here, I'm grouping a couple of players together to get Emma in the dining room as well as the kitchen
 
-![a]({{ site.url }}/public/images/mra/mscreen4.jpg) ![a]({{ site.url }}/public/images/mra/mscreen5.jpg)
+![a](/assets/images/mra/mscreen4.jpg) ![a](/assets/images/mra/mscreen5.jpg)
 
 And that's it, I have a fantastic multi-room system that I can listen to music or radio on. How did I do against my original project goals?
 

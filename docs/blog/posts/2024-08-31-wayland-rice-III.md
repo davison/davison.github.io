@@ -1,8 +1,12 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Wayland Rice - part III
-abstract: Is there a better approach to ad hoc terminals in a tiling wm? I think I found one that I quite like.
-tags: linux desktop
+date: 2024-08-31
+description: Is there a better approach to ad hoc terminals in a tiling wm? I think I found one that I quite like.
+tags:
+  - linux
+  - desktop
 ---
 
 Is there a better approach to ad hoc terminals in a tiling wm? I think I found one that I quite like.
@@ -23,7 +27,7 @@ There are two general issues that must be overcome (and a bunch of "specific to 
 
 I looked at two or three, and Tilda seemed promising as it had a dbus interface meaning it should be flexible enough to work in my stack. After some trial and error, here's what I ended up with.
 
-![tilda]({{ site.url }}/public/images/wayland/tilda.png)
+![tilda](/assets/images/wayland/tilda.png)
 
 With `Super+T` tilda appears (I made it on the left rather than the top) and you can open multiple tabs. Switching workspaces keeps tilda visible but if it loses focus, it will auto-hide after a couple of seconds. A further `Super+T` brings it back intact. If you're used to closing terminals with `Control+D` as I am, I've configured it to auto-spawn a new terminal and hide if the last tab is closed this way, rather than exit the daemon. So I get the behaviour that feels like common sense to me when I do that. All of the above requires custom config across tilda and river.
 

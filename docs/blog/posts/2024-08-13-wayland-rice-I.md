@@ -1,9 +1,12 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: Wayland Rice - part I
-abstract: Some recent updates to nvidia and mesa modules (maybe others) finally made it possible to switch to wayland for me full time. So I did.
-comments: true
-tags: linux desktop
+date: 2024-08-13
+description: Some recent updates to nvidia and mesa modules (maybe others) finally made it possible to switch to wayland for me full time. So I did.
+tags:
+  - linux
+  - desktop
 ---
 
 Some recent updates to nvidia and mesa modules (maybe others) finally made it possible to switch to wayland for me full time. So I did.

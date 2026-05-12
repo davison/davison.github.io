@@ -22,6 +22,16 @@ nav = [
   { "Blog" = [
     { "Latest" = "blog/index.md" },
     # BEGIN_BLOG_POSTS
+    { "Office Revamp <small class=\"muted\">(2020-05-30)</small>" = "blog/posts/2020-05-30-office-revamp.md" },
+    { "Privacy in the UK <small class=\"muted\">(2020-10-26)</small>" = "blog/posts/2020-10-26-privacy-in-the-uk.md" },
+    { "Fixing broken sync in Brave Browser <small class=\"muted\">(2020-12-18)</small>" = "blog/posts/2020-12-18-brave-sync.md" },
+    { "OpenHAB Upgrade (to HomeAssistant!) <small class=\"muted\">(2021-01-16)</small>" = "blog/posts/2021-01-16-openhab3-upgrade.md" },
+    { "Escaping the Cult of Google <small class=\"muted\">(2022-12-16)</small>" = "blog/posts/2022-12-16-escaping-the-cult-of-google.md" },
+    { "Wayland Rice - part I <small class=\"muted\">(2024-08-13)</small>" = "blog/posts/2024-08-13-wayland-rice-I.md" },
+    { "Wayland Rice - part II <small class=\"muted\">(2024-08-18)</small>" = "blog/posts/2024-08-18-wayland-rice-II.md" },
+    { "Wayland Rice - part III <small class=\"muted\">(2024-08-31)</small>" = "blog/posts/2024-08-31-wayland-rice-III.md" },
+    { "Philips - another company that wants to steal your data <small class=\"muted\">(2025-01-12)</small>" = "blog/posts/2025-01-12-philips-hue-data-thrft.md" },
+    { "HA Sinkhole - High Availability DNS Without the Headache <small class=\"muted\">(2025-12-12)</small>" = "blog/posts/2025-12-12-hello-ha-sinkhole.md" },
     # END_BLOG_POSTS
     { "All posts..." = "blog/archive.md" },
   ] },

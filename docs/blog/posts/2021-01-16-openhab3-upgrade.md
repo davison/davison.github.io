@@ -1,9 +1,14 @@
 ---
-layout: post
+layout: default
+author: Darren Davison
 title: OpenHAB Upgrade (to HomeAssistant!)
-abstract: OpenHAB 3.0 was released in December, time to upgrade from my 2.5 installation; so I had intended.
-comments: true
-tags: smarthome openhab install homeassistant
+date: 2021-01-16
+description: OpenHAB 3.0 was released in December, time to upgrade from my 2.5 installation; so I had intended.
+tags:
+  - smarthome
+  - openhab
+  - install
+  - homeassistant
 ---
 
 OpenHAB 3.0 was released in December, time to upgrade from my 2.5 installation; so I had intended.
