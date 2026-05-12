@@ -2,10 +2,10 @@
 
 {#-
   Add an Atom feed auto-discovery link to every page so feed readers
-  can find https://davison.github.io/blog/atom.xml regardless of which
+  can find https://davison.github.io/atom.xml regardless of which
   page the user lands on.
 -#}
 {% block extrahead %}
   {{ super() }}
-  <link rel="alternate" type="application/atom+xml" title="davison online" href="{{ 'blog/atom.xml' | url }}">
+  <link rel="alternate" type="application/atom+xml" title="davison online" href="{{ 'atom.xml' | url }}">
 {% endblock %}

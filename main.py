@@ -8,7 +8,7 @@ DOCS_BLOG = Path("docs/blog/posts")
 DRAFTS_BLOG = Path("_drafts")
 CONFIG = Path("zensical.toml")
 ARCHIVE_PAGE = Path("docs/blog/archive.md")
-ATOM_FEED = Path("docs/blog/atom.xml")
+ATOM_FEED = Path("docs/atom.xml")
 HOME_PAGE = Path("docs/index.md")
 
 
@@ -246,7 +246,7 @@ def generate_atom_feed():
 
     now = datetime.now().isoformat() + "Z"
     latest_date = posts[0]["date"] + "T00:00:00Z" if posts else now
-    feed_url = f"{SITE_URL}/{BLOG_PATH.rsplit('/', 1)[0]}/atom.xml"
+    feed_url = f"{SITE_URL}/atom.xml"
     blog_url = f"{SITE_URL}/{BLOG_PATH.rsplit('/', 1)[0]}/"
 
     feed = f"""<?xml version="1.0" encoding="utf-8"?>

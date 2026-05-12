@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>davison online</title>
   <subtitle>a home for things that had no better place to be.</subtitle>
-  <link href="https://davison.github.io/blog/atom.xml" rel="self" />
+  <link href="https://davison.github.io/atom.xml" rel="self" />
   <link href="https://davison.github.io/blog/" rel="alternate" />
   <id>https://davison.github.io/blog/</id>
   <updated>2025-12-12T00:00:00Z</updated>

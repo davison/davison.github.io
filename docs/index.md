@@ -6,7 +6,7 @@ description: a home for things that had no better place to be.
 
 # Latest
 
-Notes on linux, home automation, privacy, self-hosting, and whatever else takes my fancy. Subscribe via [Atom feed](blog/atom.xml) or see [all posts](blog/archive.md).
+Notes on linux, home automation, privacy, self-hosting, and whatever else takes my fancy. Subscribe via [Atom feed](atom.xml) or see [all posts](blog/archive.md).
 
 <!-- BEGIN_RECENT_POSTS -->
 
