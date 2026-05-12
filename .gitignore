@@ -1,8 +1,22 @@
+# Zensical build output and Python tooling
+site
+.venv
+__pycache__
+*.pyc
+*.pyo
+.cache
+
+# Drafts — personal WIP, not published
+_drafts/
+
+# Editor
+.vscode/
+
+# Jekyll legacy (removed once migration is complete, kept here defensively
+# in case anyone still has a checkout that runs `bundle exec jekyll`)
 _site
 .sass-cache
 .jekyll-metadata
-_drafts/
 vendor/
 .bundle/
-.vscode/
 crib

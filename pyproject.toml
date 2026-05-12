@@ -1,0 +1,12 @@
+[project]
+name = "davison-online"
+version = "0.1.0"
+description = "Personal blog at davison.github.io — a home for things that had no better place to be."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.39",
+]

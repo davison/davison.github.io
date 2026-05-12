@@ -1,0 +1,42 @@
+/* Date suffix injected into nav titles by main.py:regenerate_nav. */
+.md-nav__link .muted {
+  opacity: 0.55;
+  margin-left: 0.25rem;
+  font-weight: 400;
+}
+
+/* "All posts..." archive link in the nav: right-align and dim. */
+.md-nav__link[href$="archive/"] {
+  justify-content: flex-end;
+  text-align: right;
+  font-style: italic;
+}
+
+/* Page metadata line rendered below the H1 by overrides/partials/content.html. */
+.dd-page-meta {
+  margin: -0.6rem 0 1.2rem;
+  font-size: 0.85em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem 1rem;
+}
+
+.dd-page-meta__item {
+  white-space: nowrap;
+}
+
+.dd-page-meta__label {
+  opacity: 0.6;
+  margin-right: 0.15rem;
+}
+
+.dd-page-meta__value {
+  font-weight: 500;
+}
+
+/* navigation.sections renders second-level entries as always-open groups,
+   ignoring the toggle. Honor the aria-expanded Zensical already sets so that
+   non-active sections collapse when not in use. */
+.md-nav__item--section > nav.md-nav[aria-expanded="false"] > .md-nav__list {
+  display: none;
+}
