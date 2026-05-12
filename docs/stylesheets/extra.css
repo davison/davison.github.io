@@ -1,3 +1,43 @@
+/* Link palette carried over from the old Jekyll site: base #8840a5 purple,
+   hover lightens to #BC80D8 (slate) or darkens to #5e2776 (default) so the
+   hover state stays visible against either background. No underline, and
+   <strong> inside a link inherits the link color. Compound selectors needed
+   to beat zensical's [data-md-color-scheme=...][data-md-color-primary=...]
+   default cascade. */
+[data-md-color-scheme="default"][data-md-color-primary="indigo"] {
+  --md-typeset-a-color: #8840a5;
+  --md-accent-fg-color: #5e2776;
+  --md-accent-fg-color--transparent: #8840a51a;
+}
+
+[data-md-color-scheme="slate"][data-md-color-primary="indigo"] {
+  --md-typeset-a-color: #8840a5;
+  --md-accent-fg-color: #BC80D8;
+  --md-accent-fg-color--transparent: #BC80D81a;
+}
+
+.md-typeset a {
+  text-decoration: none;
+}
+
+.md-typeset a strong {
+  color: inherit;
+}
+
+/* Brand title — `<strong>davison</strong> | online` rendered in the header
+   and sidebar via overrides/partials/{header,nav}.html. Dim the pipe so it
+   reads as a separator rather than part of either word. */
+.md-header__topic .md-ellipsis strong,
+.md-nav__title strong {
+  font-weight: 700;
+  margin-right: 0.15em;
+}
+
+.md-header__topic .md-ellipsis .dim,
+.md-nav__title .dim {
+  color: #888;
+}
+
 /* Date suffix injected into nav titles by main.py:regenerate_nav. */
 .md-nav__link .muted {
   opacity: 0.55;
@@ -10,6 +50,14 @@
   justify-content: flex-end;
   text-align: right;
   font-style: italic;
+}
+
+/* Date line under each recent-post heading on the home page. */
+.dd-post-meta {
+  display: block;
+  margin: -0.6rem 0 0.8rem;
+  font-size: 0.85em;
+  opacity: 0.6;
 }
 
 /* Page metadata line rendered below the H1 by overrides/partials/content.html. */

@@ -9,6 +9,7 @@ DRAFTS_BLOG = Path("_drafts")
 CONFIG = Path("zensical.toml")
 ARCHIVE_PAGE = Path("docs/blog/archive.md")
 ATOM_FEED = Path("docs/blog/atom.xml")
+HOME_PAGE = Path("docs/index.md")
 
 
 def _load_site_url():
@@ -27,6 +28,10 @@ NAV_LIMIT = 10
 NAV_INDENT = "    "
 NAV_BEGIN = "# BEGIN_BLOG_POSTS"
 NAV_END = "# END_BLOG_POSTS"
+
+HOME_LIMIT = 10
+HOME_BEGIN = "<!-- BEGIN_RECENT_POSTS -->"
+HOME_END = "<!-- END_RECENT_POSTS -->"
 
 
 def parse_frontmatter(content):
@@ -133,6 +138,53 @@ def regenerate_nav():
         print(f"Updated blog nav with {len(visible)} visible posts")
 
 
+def regenerate_home():
+    """Rewrite the recent-posts block in docs/index.md between sentinel markers.
+
+    The home page reads the most recent HOME_LIMIT posts and renders a
+    Jekyll-style list with title, date, description, and a "read more" link.
+    """
+    posts = _published_posts()[:HOME_LIMIT]
+
+    new_lines = [HOME_BEGIN]
+    for d, title, fname in posts:
+        slug = fname.removesuffix(".md")
+        url = f"/blog/posts/{slug}/"
+        # Pull description from frontmatter — title and date came from _published_posts.
+        fm, _ = parse_frontmatter((DOCS_BLOG / fname).read_text())
+        description = fm.get("description", "")
+        new_lines.append("")
+        new_lines.append(f"### [{title}]({url})")
+        new_lines.append("")
+        new_lines.append(f'<span class="dd-post-meta">{d.strftime("%-d %B %Y")}</span>')
+        new_lines.append("")
+        new_lines.append(description)
+        new_lines.append("")
+        new_lines.append(f"[Continue reading →]({url})")
+        new_lines.append("")
+    new_lines.append(HOME_END)
+
+    text = HOME_PAGE.read_text()
+    lines = text.split("\n")
+    start = end = None
+    for i, line in enumerate(lines):
+        if start is None and line.strip() == HOME_BEGIN:
+            start = i
+        elif start is not None and line.strip() == HOME_END:
+            end = i
+            break
+    if start is None or end is None:
+        raise RuntimeError(
+            f"Could not find {HOME_BEGIN}/{HOME_END} markers in {HOME_PAGE}"
+        )
+
+    lines[start : end + 1] = new_lines
+    new_text = "\n".join(lines)
+    if new_text != text:
+        HOME_PAGE.write_text(new_text)
+        print(f"Updated home page with {len(posts)} recent posts")
+
+
 def generate_archive():
     """Write docs/blog/archive.md grouping all published posts by year and month, newest first."""
     posts = _published_posts()
@@ -231,6 +283,7 @@ def generate_atom_feed():
 def main():
     reconcile_drafts()
     regenerate_nav()
+    regenerate_home()
     generate_archive()
     generate_atom_feed()
 
