@@ -10,7 +10,7 @@
 site_name = "davison online"
 site_description = "a home for things that had no better place to be."
 site_author = "Darren Davison"
-site_url = "https://davison.github.io/"
+site_url = "https://davisononline.org/"
 
 # Local dev server bind address. Pinned to 8001 so it doesn't fight with
 # the radiusred site, which uses zensical's default 8000.
